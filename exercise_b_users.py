@@ -100,4 +100,16 @@ users["Erik"]["pets"].append({"name": "fluffy", "species": "dog"})
 print(users["Erik"]["pets"])
 print()
 
-users.update("Paul": {"twitter": "blahblah", "lottery_numbers": [0 4 34 22 45 98], "home_town": "Inverness"})
+#stuck on last question (use update), ask in class
+
+users["Paul"] = {
+   "twitter": "psctwitter",
+   "lottery_numbers": [12, 14, 54, 38, 9, 23],
+   "hometown": "Inverness",
+   "pets":[
+    {
+      "name": "Klause",
+      "species": "cat" 
+    }
+   ]
+  }
