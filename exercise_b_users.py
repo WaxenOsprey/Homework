@@ -88,7 +88,7 @@ for number in unsorted_list:
       print(number)
 print()
 
-users["Erik"]["lottery_numbers"].append(5)
+users["Erik"]["lottery_numbers"].append(7)
 print(users["Erik"]["lottery_numbers"])
 print()
 
