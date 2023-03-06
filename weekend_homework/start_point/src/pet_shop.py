@@ -10,6 +10,9 @@ def add_or_remove_cash(pet_shop, cash_amount):
     pet_shop["admin"]["total_cash"] += cash_amount
     return pet_shop["admin"]["total_cash"] 
 
+#better version of add_or_remove_cash
+    #return pet_shop["admin"]["total_cash"] += cash_amount
+
 def get_pets_sold(pet_shop):
     return pet_shop["admin"]["pets_sold"]
 
@@ -33,7 +36,7 @@ def find_pet_by_name(pet_shop, pet_name):
             return pet
     return None
 
-#this could probably be improved with a method like index of instead of using a counter
+#this could probably be improved with a method like index or .keys (is this a dict or list?) of instead of using a counter
 def remove_pet_by_name(pet_shop, pet_name):
     pet_counter = 0
     for pet in pet_shop["pets"]:
